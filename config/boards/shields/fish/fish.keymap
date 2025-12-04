@@ -104,7 +104,7 @@
                         &kp L       &kp U       &kp F       &kp ESC           &kp K       &kp W       &kp R       &kp Y       
 &kp Q       &kp E       &kp I  &kp A  &kp O &kp COMMA           &kp G       &kp T &kp N  &kp S  &kp H       &kp P       
             &kp Z       &kp X       &kp C       &kp V                                       &kp D       &kp M       &kp J       &kp B       
-                                                &kpBSPC  &kp RET       &kp TAB &kp SPACE 
+                                                &kp BSPC  &kp RET       &kp TAB &kp SPACE 
             >;
         };
 
