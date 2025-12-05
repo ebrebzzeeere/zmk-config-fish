@@ -1,3 +1,4 @@
+
 // デフォルトキーマップ（大西配列、Win優先、ANSI方式）
 // キーマップを更新する方法は https://o24.works/fish/guide を参照
 // 視覚的に編集するには https://o24.works/fish/editor を参照
@@ -66,12 +67,12 @@
         require-prior-idle-ms = <150>;
 
         combo_lang2 {
-            key-positions = <11 12>;
+            key-positions = <28 31>;
             bindings = <&kp LANG2>;
         };
 
         combo_lang1 {
-            key-positions = <15 16>;
+            key-positions = <29 30>;
             bindings = <&kp LANG1>;
         };
 
@@ -101,10 +102,10 @@
 
         layer_base {
             bindings = <
-                        &kp L       &kp U       &kp F       &kp ESC           &kp K       &none       &kp R       &kp Y       
-&kp Q       &kp E       &kp I  &kp A  &kp O &kp COMMA           &kp G       &kp T &kp N  &kp S  &kp H       &kp P       
+                        &kp L       &kp U       &kp F       &kp MINUS           &kp K       &kp W       &kp R       &kp Y       
+&kp Q       &kp E       &mt LGUI I  &mt LALT A  &mt LSHFT O &kp COMMA           &kp G       &mt RSHFT T &mt RALT N  &mt RGUI S  &kp H       &kp P       
             &kp Z       &kp X       &kp C       &kp V                                       &kp D       &kp M       &kp J       &kp B       
-                                                &kp W  &kp N0       &kp N1 &kp SPACE 
+                                                &lt 1 SPACE &mt LCTRL TAB       &mt RCTRL RET &lt 2 BSPC 
             >;
         };
 
