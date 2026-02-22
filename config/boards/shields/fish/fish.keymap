@@ -128,9 +128,9 @@
 
         layer_gaming {
             bindings = <
-                        &kp Q       &kp W       &kp E       &kp R           &kp T      &kp Y       &kp U       &kp I        
-&kp LSHIFT  &kp LCTRL       &kp A       &kp S       &kp D       &kp F           &kp G       &kp J &kp K  &kp L  &kp O       &kp P       
-            &kp Z   &kp X       &kp C       &kp V                                  &kp H  &kp B       &kp N       &kp M              
+                        &kp Q       &kp W       &kp E       &kp R            &kp K       &kp W       &kp R       &kp Y       
+&kp LSHIFT  &kp LCTRL       &kp A       &kp S       &kp D       &kp F           &kp G       &kp T &kp N  &kp S  &kp H       &kp P       
+            &kp Z   &kp X       &kp C       &kp V                                  &kp D  &kp M       &kp J       &kp B              
                                                 &lt 4 ESC   &kp SPACE       &mt RCTRL RET &kp BSPC 
             >;
         };
