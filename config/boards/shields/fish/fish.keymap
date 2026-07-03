@@ -85,10 +85,10 @@
             bindings = <&bootloader>;
         };
 
-#        combo_studio_unlock {
-#            key-positions = <20 21 22 23>;
-#            bindings = <&studio_unlock>;
-#        };
+//        combo_studio_unlock {
+//            key-positions = <20 21 22 23>;
+//            bindings = <&studio_unlock>;
+//        };
     };
     
 
