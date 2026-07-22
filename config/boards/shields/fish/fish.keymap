@@ -74,23 +74,9 @@
             key-positions = <15 16>;
             bindings = <&kp LANG1>;
         };
-
-        combo_reset_L {
-            key-positions = <3 8 13>;
-            bindings = <&bootloader>;
-        };
-
-        combo_reset_R {
-            key-positions = <4 14 19>;
-            bindings = <&bootloader>;
-        };
-
-        combo_studio_unlock {
-            key-positions = <20 21 22 23>;
-            bindings = <&studio_unlock>;
-        };
+        
         combo_BT_CLR_ALL {
-            key-positions = <4 5 6 7>;
+            key-positions = <4 5 6 7 31>;
             bindings = <&bt BT_CLR_ALL>;
         };
 
@@ -115,9 +101,9 @@
 
         layer_math {
             bindings = <
-                        &kp N1      &kp N2      &kp N3      &kp F13              &kp CARET   &kp LT      &kp EQUAL   &kp GT      
-&kp TILDE   &kp N0      &mt LGUI N4 &mt LALT N5 &mt LSHFT N6 &kp DOT            &kp UNDER   &mt RSHFT PLUS &mt RALT MINUS &mt RGUI STAR &kp FSLH &kp PRCNT 
-            &kp DLLR    &kp N7      &kp N8      &kp N9                                      &kp EXCL    &kp QMARK   &kp COLON   &kp SEMI    
+                        &kp KP_N1      &kp KP_N2      &kp KP_N3      &kp F13              &kp CARET   &kp LT      &kp EQUAL   &kp GT      
+&kp TILDE   &kp KP_N0      &mt LGUI KP_N4 &mt LALT KP_N5 &mt LSHFT KP_N6 &kp DOT            &kp UNDER   &mt RSHFT PLUS &mt RALT MINUS &mt RGUI STAR &kp FSLH &kp PRCNT 
+            &kp DLLR    &kp KP_N7      &kp KP_N8      &kp KP_N9                                      &kp EXCL    &kp QMARK   &kp COLON   &kp SEMI    
                                                 &none       &trans              &trans      &lt 5 BSPC 
             >;
         };
@@ -125,8 +111,8 @@
         layer_navi {
             bindings = <
                         &kp LBKT    &kp DQT     &kp RBKT    &kp AMPS            &kp C_VOL_UP &kp ESC    &kp UP      &kp CAPS    
-&kp AT      &kp HASH    &mt LCTRL LPAR &mt LALT SQT &mt LSHFT RPAR &kp PIPE     &kp C_VOL_DN &kp LEFT   &kp DOWN    &kp RIGHT   &kp C_BRI_UP &kp PSCRN  
-            &kp BSLH    &kp LBRC    &kp GRAVE   &kp RBRC                                    &kp C_PREV  &kp C_PP    &kp C_NEXT  &kp C_BRI_DN 
+&kp AT      &kp HASH    &mt LCTRL LPAR &mt LALT SQT &mt LSHFT RPAR &kp PIPE     &kp C_VOL_DN &kp LEFT   &kp DOWN    &kp RIGHT   &kp K_APP &kp PSCRN  
+            &kp BSLH    &kp LBRC    &kp GRAVE   &kp RBRC                                    &kp C_PREV  &kp C_PP    &kp C_NEXT  &kp DEL
                                                 &lt 5 SPACE  &trans              &trans      &none       
             >;
         };
@@ -148,13 +134,25 @@
                                 &none        &trans           &trans  &lt 5 BSPC 
             >;
         };
+
+
         layer_system {
             bindings = <
-                        &trans &trans &trans &trans     &tog 3      &kp INS     &kp HOME    &kp PG_UP   
-&kp F1      &trans &trans &trans &trans &kp F6          &kp F7      &kp DEL     &kp END     &kp PG_DN   &kp K_APP   &kp F12     
-            &kp F2      &kp F3      &kp F4      &kp F5                                      &kp F8      &kp F9      &kp F10     &kp F11     
+                        &kp N1 &kp N2 &kp N3 &sl 6     &tog 3      &kp INS     &kp HOME    &kp PG_UP   
+&none      &kp N0 &kp N4 &kp N5 &kp N6 &kp F5          &kp F7      &kp DEL     &kp END     &kp PG_DN   &kp K_APP   &kp F12     
+            &none      &kp N7      &kp N8      &kp N9                                      &kp F8      &kp F9      &kp F10     &kp F11     
                                                 &none       &none               &none       &none       
             >;
         };
-    };
+
+        layer_fn {
+            bindings = <
+                        &kp F1 &kp F2 &kp F3 &kp F11     &none      &none     &none    &none   
+&none      &kp F0 &kp F4 &kp F5 &kp F6 &kp F12          &none      &none     &none     &none   &none   &none     
+            &kp F10      &kp F7      &kp F8      &kp F9                                      &none      &none      &none     &none     
+                                                &none       &none               &none       &none       
+            >;
+        };
+
+    }; // Keymap end.
 };
