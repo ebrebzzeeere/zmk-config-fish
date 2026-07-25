@@ -16,15 +16,15 @@
 
 &mt {
     flavor = "tap-preferred";
-    tapping-term-ms = <175>;
-    quick-tap-ms = <200>;
-    require-prior-idle-ms = <150>;
+    tapping-term-ms = <100>;
+    quick-tap-ms = <60>;
+    require-prior-idle-ms = <100>;
 };
 
 &lt {
     flavor = "balanced";
-    tapping-term-ms = <175>;
-    quick-tap-ms = <200>;
+    tapping-term-ms = <100>;
+    quick-tap-ms = <100>;
 };
 
 &sk {
@@ -62,18 +62,17 @@
 
     combos {
         compatible = "zmk,combos";
-        timeout-ms = <100>;
-        require-prior-idle-ms = <150>;
+        timeout-ms = <30>;
+        require-prior-idle-ms = <100>;
+        combo_lang2 {
+            key-positions = <11 12>;
+            bindings = <&kp LC(SPACE)>;
+        };
 
-        //combo_lang2 {
-          //  key-positions = <11 12>;
-            //bindings = <&kp LANG2>;
-        //};
-
-        //combo_lang1 {
-          //  key-positions = <15 16>;
-            //bindings = <&kp LANG1>;
-        //};
+        combo_lang1 {
+            key-positions = <15 16>;
+            bindings = <&kp LC(SPACE)>;
+        };
         
         combo_BT_CLR_ALL {
             key-positions = <4 5 6 7 31>;
