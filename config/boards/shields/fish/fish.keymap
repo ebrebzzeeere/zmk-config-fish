@@ -15,16 +15,16 @@
 // 特殊入力の挙動を調整できる
 
 &mt {
-    flavor = "tap-preferred";
+    flavor = "balanced";
     tapping-term-ms = <120>;
     quick-tap-ms = <60>;
-    require-prior-idle-ms = <120>;
+    require-prior-idle-ms = <150>;
 };
 
 &lt {
     flavor = "balanced";
     tapping-term-ms = <120>;
-    quick-tap-ms = <60>;
+    quick-tap-ms = <120>;
 };
 
 &sk {
