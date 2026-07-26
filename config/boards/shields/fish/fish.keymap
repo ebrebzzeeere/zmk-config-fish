@@ -73,7 +73,12 @@
             key-positions = <15 16>;
             bindings = <&kp LC(SPACE)>;
         };
-        
+
+        combo_CAPS {
+            key-positions = <24 25>;
+            bindings = <&kp CAPS>;
+        };
+
         combo_BT_CLR_ALL {
             key-positions = <4 5 6 7 31>;
             bindings = <&bt BT_CLR_ALL>;
@@ -94,7 +99,7 @@
                         &kp L       &kp U       &kp F       &kp MINUS           &kp K       &kp W       &kp R       &kp Y       
 &kp Q       &kp E       &mt LGUI I  &mt LALT A  &mt LSHFT O &kp COMMA           &kp G       &mt RSHFT T &mt RALT N  &mt RGUI S  &kp H       &kp P       
             &kp Z       &kp X       &kp C       &kp V                                       &kp D       &kp M       &kp J       &kp B       
-                                                &lt 1 SPACE &mt LCTRL TAB       &mt RCTRL RET &lt 2 BSPC 
+                                                &lt 1 SPACE &mt LCTRL TAB       &mt RSHFT RET &lt 2 BSPC 
             >;
         };
 
