@@ -67,7 +67,7 @@
 
         combo_lang2 {
             key-positions = <11 12>;
-            bindings = <&kp CAPS>;
+            bindings = <&kp LC(SPACE)>;
         };
 
         combo_lang1 {
