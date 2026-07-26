@@ -64,6 +64,7 @@
         compatible = "zmk,combos";
         timeout-ms = <30>;
         require-prior-idle-ms = <100>;
+
         combo_lang2 {
             key-positions = <11 12>;
             bindings = <&kp CAPS>;
@@ -72,6 +73,7 @@
         combo_lang1 {
             key-positions = <15 16>;
             bindings = <&kp LC(SPACE)>;
+};
         combo_BT_CLR_ALL {
             key-positions = <4 5 6 7 31>;
             bindings = <&bt BT_CLR_ALL>;
@@ -90,7 +92,7 @@
         layer_base {
             bindings = <
                         &kp L       &kp U       &kp F       &kp MINUS           &kp K       &kp W       &kp R       &kp Y       
-&kp Q       &kp E       &mt LGUI I  &mt LALT A  &kp O &kp COMMA           &kp G       &kp T &kp N  &kp S  &kp H       &kp P       
+&kp Q       &kp E       &mt LGUI I  &mt LALT A  &mt LSHFT O &kp COMMA           &kp G       &kp T &kp N  &kp S  &kp H       &kp P       
             &kp Z       &kp X       &kp C       &kp V                                       &kp D       &kp M       &kp J       &kp B       
                                                 &lt 1 SPACE &mt LCTRL TAB       &mt RSHFT RET &lt 2 BSPC 
             >;
