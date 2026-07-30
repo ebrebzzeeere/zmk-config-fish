@@ -134,7 +134,7 @@
                         &kp F1       &trans       &kp  T      &kp G           &kp CARET   &kp LT      &kp EQUAL   &kp GT      
 &kp F10      &kp TAB      &trans       &trans       &trans       &kp H          &kp UNDER   &mt RSHFT PLUS &mt RALT MINUS &mt RGUI STAR &kp FSLH &kp PRCNT 
             &kp N1    &kp  N2      &kp N3       &kp N4                                    &kp EXCL    &kp QMARK   &kp COLON   &kp SEMI
-                                &none        &trans           &trans  &lt 5 BSPC 
+                                &none        &trans           &trans  &kp BSPC 
             >;
         };
 
