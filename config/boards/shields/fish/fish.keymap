@@ -98,7 +98,7 @@
                         &kp L       &kp U       &kp F       &kp MINUS           &kp K       &kp W       &kp R       &kp Y       
 &kp Q       &kp E       &mt LGUI I  &mt LALT A  &mt LCTRL O &kp COMMA           &kp G       &mt RCTRL T &mt RALT N  &mt RGUI S  &kp H       &kp P       
             &kp Z       &kp X       &kp C       &kp V                                       &kp D       &kp M       &kp J       &kp B       
-                                                &lt 1 SPACE &mt LSHFT TAB       &mt RSHFT RET &lt 2 BSPC 
+                                                &lt 1 SPACE &kp TAB       &kp RSHFT  &lt 2 BSPC 
             >;
         };
 
@@ -107,7 +107,7 @@
                         &kp KP_N1      &kp KP_N2      &kp KP_N3      &kp F13              &kp CARET   &kp LT      &kp EQUAL   &kp GT      
 &kp TILDE   &kp KP_N0      &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp DOT            &kp UNDER   &kp PLUS &kp MINUS &kp STAR &kp FSLH &kp PRCNT 
             &kp DLLR    &kp KP_N7      &kp KP_N8      &kp KP_N9                                      &kp EXCL    &kp QMARK   &kp COLON   &kp SEMI    
-                                                &none       &trans              &trans      &none 
+                                                &none       &trans              &kp RET      &none 
             >;
         };
 
