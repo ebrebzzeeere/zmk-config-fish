@@ -47,6 +47,16 @@
     };
 
     macros {
+	    REISUB: REISUB{
+		    compatible = "zmk, behavior-macro";
+		    #bindings-cells = <0>;
+
+		    bindings
+		    	= <&macro_press &kp LALT>
+			, <&macro_tap &kp PSCRN>
+			, <&macro_release &kp LALT>
+			;
+	    };
     };
 
     conditional_layers {
@@ -67,7 +77,7 @@
 
 	    combo_REISUB {
 		    key-positions = <29 30>;
-		    bindings = <&kp LA(PSCRN)>;
+		    bindings = <&REISUB>;
 	    };
 
 	    combo_lang2 {
