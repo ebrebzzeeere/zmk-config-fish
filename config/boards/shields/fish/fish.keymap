@@ -61,31 +61,36 @@
     //            28 29    30 31
 
     combos {
-        compatible = "zmk,combos";
-        timeout-ms = <50>;
-        require-prior-idle-ms = <100>;
+	    compatible = "zmk,combos";
+	    timeout-ms = <50>;
+	    require-prior-idle-ms = <100>;
 
-        combo_lang2 {
-            key-positions = <11 12>;
-            bindings = <&kp LC(SPACE)>;
-        };
+	    combo_REISUB {
+		    key-positions = <29 30>;
+		    bindings = <&kp LA(PSCRN)>;
+	    };
 
-        combo_lang1 {
-            key-positions = <15 16>;
-            bindings = <&kp LC(SPACE)>;
-};
-        combo_BT_CLR_ALL {
-            key-positions = <4 5 6 7>;
-            bindings = <&bt BT_CLR_ALL>;
-        };
-	COMBO_LAYER_SYSTEM {
-            key-positions = <28 31>;
-            bindings = <&mo 5>;
-        };
-        combo_Toggle_GameLayer{
-            key-positions = <0 1 2 3>;
-            bindings = <&tog 3>;
-        };
+	    combo_lang2 {
+		    key-positions = <11 12>;
+		    bindings = <&kp LC(SPACE)>;
+	    };
+
+	    combo_lang1 {
+		    key-positions = <15 16>;
+		    bindings = <&kp LC(SPACE)>;
+	    };
+	    combo_BT_CLR_ALL {
+		    key-positions = <4 5 6 7>;
+		    bindings = <&bt BT_CLR_ALL>;
+	    };
+	    COMBO_LAYER_SYSTEM {
+		    key-positions = <28 31>;
+		    bindings = <&mo 5>;
+	    };
+	    combo_Toggle_GameLayer{
+		    key-positions = <0 1 2 3>;
+		    bindings = <&tog 3>;
+	    };
 
     };
     
